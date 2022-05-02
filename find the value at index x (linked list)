@@ -1,0 +1,14 @@
+int GetNth(struct node* head, int index){
+  // Code here
+   int count = 0;
+   
+   while(head != NULL){
+   
+   if(count = index -1){
+   return head->data;
+   }
+   head = head->next;
+   count++;
+   }
+   return -1;
+}
